@@ -15,8 +15,12 @@ export default function Home() {
 			</Head>
 
 			<Body>
-				<Header>Nav goes here</Header>
-				<Main>Main content goes here</Main>
+				<Header>
+					<p>Nav goes here</p>
+				</Header>
+				<Main>
+					<p>Main content goes here</p>
+				</Main>
 			</Body>
 		</>
 	);

@@ -119,8 +119,9 @@ const GlobalStyle = createGlobalStyle`
   *:after {
     box-sizing: border-box;
   }
+
   p{
-    color:white;
+    color: var(--color-white);
   }
   
   a {
