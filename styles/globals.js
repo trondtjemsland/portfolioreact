@@ -4,7 +4,7 @@ import media from 'styled-media-query';
 const GlobalStyle = createGlobalStyle`
 :root {
     --font-body: Poppins, Arial, serif;
-    --font-headings: Rokurou, Arial, serif;
+    --font-logo: 'Orelega One', Arial, serif;
   
     /* FONT SIZES */
     --font-size-base: 16px;
