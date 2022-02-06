@@ -98,6 +98,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: var(--font-body);
     font-size: var(--font-size-base);
     scroll-behavior: smooth;
+    background-image: url('/images/blobs.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
   }
   
   html,

@@ -5,10 +5,6 @@ const Body = styled.div`
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	background-image: url('/images/blobs.png');
-	background-size: cover;
-	background-position: top center;
-	background-repeat: no-repeat;
 `;
 
 export default Body;

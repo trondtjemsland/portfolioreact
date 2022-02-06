@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Body from '../components/body/Body';
 import Header from '../components/header/Header';
 import Main from '../components/main/Main';
-import Herobanner from '../components/herobanner/Herobanner';
+import HeroBanner from '../components/herobanner/Herobanner';
 import Aside from '../components/aside/Aside';
 
 export default function Home() {
@@ -18,12 +18,9 @@ export default function Home() {
 
 			<Body>
 				<Aside></Aside>
-
 				<Main>
-					<Header>
-						<p>Nav goes here</p>
-					</Header>
-					<Herobanner></Herobanner>
+					<Header></Header>
+					<HeroBanner></HeroBanner>
 				</Main>
 			</Body>
 		</>
