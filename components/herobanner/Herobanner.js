@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 import Image from 'next/image';
+import CustomBtn from '../button/Button';
+import { FaGithub, FaFile } from 'react-icons/fa';
 
 const Wrapper = styled.div`
 	width: 100%;
-	padding-top: 300px;
-	padding-left: 140px;
+	padding-top: 129px;
+`;
+
+const BtnContainer = styled.div`
+	display: flex;
+	margin: 10px;
 `;
 
 const HeroBanner = () => {
@@ -13,8 +19,14 @@ const HeroBanner = () => {
 			<Image
 				alt="herobanner"
 				src="/images/herobanner.png"
-				height={320}
-				width={1800}></Image>
+				height={220}
+				width={1077}></Image>
+			<BtnContainer>
+				<CustomBtn icon={<FaFile />}>CV </CustomBtn>
+				<CustomBtn variant={'primary'}>
+					Github <FaGithub />
+				</CustomBtn>
+			</BtnContainer>
 		</Wrapper>
 	);
 };

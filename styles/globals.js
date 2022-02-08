@@ -91,7 +91,7 @@ const GlobalStyle = createGlobalStyle`
     `};
 }
   
-
+ 
   
   html {
     background: var(--c-bg);

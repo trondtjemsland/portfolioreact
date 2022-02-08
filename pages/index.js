@@ -1,6 +1,5 @@
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
-
 import Body from '../components/body/Body';
 import Header from '../components/header/Header';
 import Main from '../components/main/Main';
