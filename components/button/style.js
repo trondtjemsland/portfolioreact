@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Icon = styled.span`
-		height:60px
-		margin-right: 10px;
-		flex: 0 0 auto;
-		color:white;
+	margin-right: 10px;
+	flex: 0 0 auto;
+	color: white;
+	font-size: 35px;
 `;
 
 export const Wrapper = styled.div`
@@ -34,6 +34,6 @@ export const Primary = styled.div`
 	p {
 		font-size: 22px;
 		font-weight: bold;
-		flex: 0 1 auto;
+		flex: 0 2 auto;
 	}
 `;

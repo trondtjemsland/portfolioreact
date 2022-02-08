@@ -10,7 +10,8 @@ const Wrapper = styled.div`
 
 const BtnContainer = styled.div`
 	display: flex;
-	margin: 10px;
+	margin-top: 80px;
+	border: solid 2px red;
 `;
 
 const HeroBanner = () => {
@@ -24,7 +25,7 @@ const HeroBanner = () => {
 			<BtnContainer>
 				<CustomBtn icon={<FaFile />}>CV </CustomBtn>
 				<CustomBtn variant={'primary'}>
-					Github <FaGithub />
+					<FaGithub /> Github
 				</CustomBtn>
 			</BtnContainer>
 		</Wrapper>
