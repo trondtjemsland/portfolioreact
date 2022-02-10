@@ -124,12 +124,24 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  p{
+  h1,p{
     color: var(--color-white);
+    margin:0;
   }
   
   a {
     color: var(--c-action);
   }
+
+  .headingText {
+		font-size: var(--size-xl);
+		font-weight: 700;
+	}
+
+	span {
+		color: var(--color-primary);
+		text-shadow: -1px -1px 0 #f4f4fc, 1px -1px 0 #f4f4fc, -1px 1px 0 #f4f4fc,
+			1px 1px 0 #f4f4fc;
+	}
 `;
 export default GlobalStyle;

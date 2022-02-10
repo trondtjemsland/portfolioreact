@@ -5,6 +5,7 @@ function CustomBtn({ children, variant, icon }) {
 	if (variant === 'primary') {
 		return (
 			<Primary>
+				<Icon>{icon}</Icon>
 				<p>{children}</p>
 			</Primary>
 		);
@@ -12,8 +13,8 @@ function CustomBtn({ children, variant, icon }) {
 
 	return (
 		<Wrapper>
-			<p>{children}</p>
 			<Icon>{icon}</Icon>
+			<p>{children}</p>
 		</Wrapper>
 	);
 }

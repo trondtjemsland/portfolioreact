@@ -8,6 +8,8 @@ export const Icon = styled.span`
 `;
 
 export const Wrapper = styled.div`
+	border-radius: 5px;
+	margin-right: 30px;
 	width: 214px;
 	height: 72px;
 	background-color: var(--color-tertiary);
@@ -19,14 +21,15 @@ export const Wrapper = styled.div`
 	p {
 		font-size: 22px;
 		font-weight: bold;
-		flex: 0 1 auto;
+		/* flex: 0 1 auto; */
 	}
 `;
 export const Primary = styled.div`
+	border-radius: 5px;
 	width: 214px;
 	height: 72px;
 	background: none;
-	border: solid 1px white;
+	border: solid 2px var(--color-white);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -34,6 +37,6 @@ export const Primary = styled.div`
 	p {
 		font-size: 22px;
 		font-weight: bold;
-		flex: 0 2 auto;
+		/* flex: 0 2 auto; */
 	}
 `;
