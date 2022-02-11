@@ -124,7 +124,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  h1,p{
+  h1,h3,p{
     color: var(--color-white);
     margin:0;
   }
