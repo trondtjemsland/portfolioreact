@@ -1,0 +1,14 @@
+[
+    {
+        "id":"1",
+        "title":"E-Commerce / Bike Shop",
+        "description":"This was the first semester project of the second year.We were told to design and build a e-commerce site. We had 5 weeks to design and code the site. It is made for desktop, tablet and mobile.",
+        "image":"https://condescending-montalcini-17b160.netlify.app/Images/project1.png"
+    },
+    {
+        "id":"2",
+        "title":"Donation Site",
+        "description":"This was a small task, where we was given one week to design a donation site. There was not any need to make it scaleable so its only designed for desktop.",
+        "image":"https://condescending-montalcini-17b160.netlify.app/Images/project2.png"
+    }
+]

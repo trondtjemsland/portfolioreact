@@ -1,69 +1,45 @@
-import React from 'react';
 import styled from 'styled-components';
-import Image from 'next/image';
-import { FaGithub, FaJsSquare } from 'react-icons/fa';
+import Data from '../data/data.json';
 
-const Wrapper = styled.div`
-	margin-top: 354px;
-`;
-
-const HeadingWrapper = styled.div``;
-
-const ContentWrapper = styled.div`
+const ProjectContainer = styled.div`
+	width: 90%;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 1027px;
-	height: 377px;
-	background-color: var(--color-secondary);
-	padding: 35px;
-`;
+	flex-direction: column;
 
-const TextContainer = styled.div`
-	width: 80%;
-	color: var(--color-white);
-
-	h3 {
-		font-size: var(--font-size-lg);
+	h2 {
+		font-size: 36px;
 		font-weight: 700;
-		padding-bottom: 10px;
 	}
 
-	p {
-		font-size: 20px;
+	.Card {
+		background-color: var(--color-secondary);
+		border-radius: 5px;
+		margin-top: 40px;
+		display: flex;
+		padding: 20px;
 	}
 `;
 
 const Projects = () => {
-	const projectList = [
-		{
-			title: 'E-Commerce Site / Bike Shop',
-			description:
-				'This was the first semester project of the second year. We were told to design and build a e-commerce site, we had 5 weeks to design and code the site. It is made for desktop, tablet and mobile. ',
-		},
-	];
-
 	return (
-		<Wrapper>
-			<HeadingWrapper>
-				<p className="headingText">
-					02 <span>PRJOECTS</span>
-				</p>
-			</HeadingWrapper>
-			<ContentWrapper>
-				<Image
-					height={220}
-					width={396}
-					alt="Mockup of laptop with picture of website"
-					src={'/images/project1.png'}></Image>
-				{projectList.map(({ title, description }) => (
-					<TextContainer key={title}>
-						<h3>{title}</h3>
-						<p>{description}</p>
-					</TextContainer>
+		<>
+			<ProjectContainer>
+				{Data.map(({ id, title, year, description, image }) => (
+					<div className="Card" key={id}>
+						<div className="projectImage">
+							<img src={image} alt="projectimages" />
+						</div>
+						<div className="projText">
+							<div className="projectTitle">
+								<h2>{title}</h2>
+							</div>
+							<p>{description}</p>
+							<h3>{year}</h3>
+						</div>
+					</div>
 				))}
-			</ContentWrapper>
-		</Wrapper>
+			</ProjectContainer>
+		</>
 	);
 };
 

@@ -5,7 +5,7 @@ import Main from '../components/main/Main';
 import HeroBanner from '../components/herobanner/Herobanner';
 import Aside from '../components/aside/Aside';
 import AboutSection from '../components/about/about';
-import Projects from '../components/projectcontainer/projects';
+import ProjectsContainer from '../components/projectcontainer/projects';
 
 export default function Home() {
 	return (
@@ -22,7 +22,7 @@ export default function Home() {
 					<Header></Header>
 					<HeroBanner></HeroBanner>
 					<AboutSection></AboutSection>
-					<Projects></Projects>
+					<ProjectsContainer></ProjectsContainer>
 				</Main>
 			</Body>
 		</>
