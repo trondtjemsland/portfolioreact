@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Image from 'next/image';
+import media from 'styled-media-query';
 
 const Wrapper = styled.div`
 	background-image: url('images/footer.png');
@@ -17,6 +18,10 @@ const Wrapper = styled.div`
 		width: 474px;
 		height: 360px;
 	}
+
+	${media.lessThan('medium')`
+	right: 0px;
+	`}
 `;
 
 const FooterImage = styled(Image)`

@@ -7,6 +7,9 @@ const Aside = styled.aside`
 	${media.greaterThan('large')`
 		flex: 0 0 20%;
 	`}
+	${media.lessThan('medium')`
+		flex: 0 0 5%;
+	`}
 `;
 
 export default Aside;

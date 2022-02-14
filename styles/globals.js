@@ -59,7 +59,6 @@ const GlobalStyle = createGlobalStyle`
     --speed-fast: 120ms;
     --speed-medium: 200ms;
     --speed-slow: 500ms;
-  
     --animate-duration: var(--speed-base);
     --animate-delay: var(--speed-fast);
   
@@ -69,11 +68,7 @@ const GlobalStyle = createGlobalStyle`
     --z-cieling: 1000;
     --z-sky: 9999;
   
-    /* Elevation */
-    --shadow-base: 0 2px 2px 0 rgb(0 0 0 / 14%);
-    --shadow-1: 0 3px 4px 0 rgb(0 0 0 / 14%);
-    --shadow-2: 0 5px 6px 0 rgb(0 0 0 / 16%);
-    --shadow-3: 0 8px 10px 0 rgb(0 0 0 / 22%);
+
 
 
     ${media.greaterThan('huge')`
