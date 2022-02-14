@@ -17,11 +17,10 @@ const Wrapper = styled.div`
 		bottom: 0px;
 		width: 474px;
 		height: 360px;
-	}
-
-	${media.lessThan('medium')`
-	right: 0px;
+		${media.lessThan('medium')`
+		right: 0px;
 	`}
+	}
 `;
 
 const FooterImage = styled(Image)`

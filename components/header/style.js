@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
-	width: 100%;
+	width: 90%;
 	flex: 0 0 200px;
 	height: 60px;
 	display: flex;
@@ -23,7 +23,7 @@ export const Nav = styled.nav`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 100%;
+	width: 90%;
 	max-width: 563px;
 `;
 

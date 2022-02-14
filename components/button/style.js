@@ -8,6 +8,7 @@ export const Icon = styled.span`
 `;
 
 export const Wrapper = styled.div`
+	cursor: pointer;
 	border-radius: 5px;
 	margin-right: 30px;
 	width: 214px;
@@ -18,13 +19,16 @@ export const Wrapper = styled.div`
 	justify-content: center;
 	gap: 10px;
 
-	p {
+	a {
+		text-decoration: none;
+		color: var(--color-white);
 		font-size: 22px;
 		font-weight: bold;
 		flex: 0 1 auto;
 	}
 `;
 export const Primary = styled.div`
+	cursor: pointer;
 	border-radius: 5px;
 	width: 214px;
 	height: 72px;
@@ -34,9 +38,10 @@ export const Primary = styled.div`
 	align-items: center;
 	justify-content: center;
 
-	p {
+	a {
+		text-decoration: none;
+		color: var(--color-white);
 		font-size: 22px;
 		font-weight: bold;
-		/* flex: 0 2 auto; */
 	}
 `;

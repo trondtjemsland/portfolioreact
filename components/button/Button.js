@@ -1,12 +1,15 @@
 import React from 'react';
 import { Wrapper, Primary, Icon } from './style';
+import Link from 'next/link';
 
 function CustomBtn({ children, variant, icon }) {
 	if (variant === 'primary') {
 		return (
 			<Primary>
 				<Icon>{icon}</Icon>
-				<p>{children}</p>
+				<Link href="https://github.com/trondtjemsland" passHref>
+					<a>{children}</a>
+				</Link>
 			</Primary>
 		);
 	}
@@ -14,7 +17,7 @@ function CustomBtn({ children, variant, icon }) {
 	return (
 		<Wrapper>
 			<Icon>{icon}</Icon>
-			<p>{children}</p>
+			<a>{children}</a>
 		</Wrapper>
 	);
 }

@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 export const Text = styled.h1`
 	font-size: var(--font-size-xxl);
 	font-weight: 900;
-	letter-spacing: 15px;
+	letter-spacing: 10px;
 
 	${media.lessThan('large')`
 
