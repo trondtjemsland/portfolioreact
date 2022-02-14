@@ -117,6 +117,7 @@ const GlobalStyle = createGlobalStyle`
       height: 100%;
     }
   }
+
   
   *,
   *:before,
@@ -133,7 +134,7 @@ const GlobalStyle = createGlobalStyle`
     color: var(--c-action);
   }
 
-  .headingText {
+	.headingText {
 		font-size: var(--size-xl);
 		font-weight: 700;
 	}

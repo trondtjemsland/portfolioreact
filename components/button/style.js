@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
 	p {
 		font-size: 22px;
 		font-weight: bold;
-		/* flex: 0 1 auto; */
+		flex: 0 1 auto;
 	}
 `;
 export const Primary = styled.div`

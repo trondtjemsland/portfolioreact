@@ -6,6 +6,7 @@ import HeroBanner from '../components/herobanner/Herobanner';
 import Aside from '../components/aside/Aside';
 import AboutSection from '../components/about/about';
 import ProjectsContainer from '../components/projectcontainer/projects';
+import Contact from '../components/contact/contact';
 
 export default function Home() {
 	return (
@@ -23,6 +24,7 @@ export default function Home() {
 					<HeroBanner></HeroBanner>
 					<AboutSection></AboutSection>
 					<ProjectsContainer></ProjectsContainer>
+					<Contact></Contact>
 				</Main>
 			</Body>
 		</>
