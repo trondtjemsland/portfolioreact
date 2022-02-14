@@ -6,7 +6,7 @@ import { FaEnvelope } from 'react-icons/fa';
 function Contact() {
 	return (
 		<Wrapper>
-			<Text>
+			<Text id="contact">
 				<span>DONT</span> HESITATE
 			</Text>
 			<Text>

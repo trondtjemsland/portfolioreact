@@ -1,5 +1,6 @@
 import React from 'react';
 import { Wrapper, Nav, NavItem, Logo } from './style';
+import Link from 'next/link';
 
 function Header() {
 	const navList = [
@@ -19,7 +20,10 @@ function Header() {
 
 	return (
 		<Wrapper>
-			<Logo>tjems</Logo>
+			<Link href="/" passHref>
+				<Logo>tjems</Logo>
+			</Link>
+
 			<Nav>
 				{navList.map(({ link, title }) => (
 					<NavItem key={link}>

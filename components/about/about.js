@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 
 const AboutSection = () => {
 	return (
-		<Wrapper>
+		<Wrapper id="about">
 			<p className="headingText">
 				<span>01</span> ME
 			</p>

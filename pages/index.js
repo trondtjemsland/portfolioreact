@@ -7,6 +7,7 @@ import Aside from '../components/aside/Aside';
 import AboutSection from '../components/about/about';
 import ProjectsContainer from '../components/projectcontainer/projects';
 import Contact from '../components/contact/contact';
+import Footer from '../components/footer/Footer';
 
 export default function Home() {
 	return (
@@ -18,14 +19,17 @@ export default function Home() {
 			</Head>
 
 			<Body>
-				<Aside></Aside>
-				<Main>
-					<Header></Header>
-					<HeroBanner></HeroBanner>
-					<AboutSection></AboutSection>
-					<ProjectsContainer></ProjectsContainer>
-					<Contact></Contact>
-				</Main>
+				<div className="flexWrapper">
+					<Aside></Aside>
+					<Main>
+						<Header></Header>
+						<HeroBanner></HeroBanner>
+						<AboutSection></AboutSection>
+						<ProjectsContainer></ProjectsContainer>
+						<Contact></Contact>
+					</Main>
+				</div>
+				<Footer></Footer>
 			</Body>
 		</>
 	);

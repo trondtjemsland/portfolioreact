@@ -1,13 +1,22 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
 	width: 100%;
-	flex: 0 0 80px;
-	height: 59px;
+	flex: 0 0 200px;
+	height: 60px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 67px 52px 0 0;
+
+	${media.lessThan('large')`
+		flex-direction:row;
+		flex-wrap:wrap;
+		align-content:stretch;
+		justify-content:flex-start;
+		align-items:center	
+	`}
 `;
 
 export const Nav = styled.nav`
@@ -23,12 +32,15 @@ export const NavItem = styled.div`
 	text-transform: uppercase;
 
 	a {
+		font-size: 22px;
 		color: var(--color-white);
 		text-decoration: none;
 	}
 `;
 
-export const Logo = styled.p`
+export const Logo = styled.a`
 	font-family: var(--font-logo);
 	font-size: 54px;
+	text-decoration: none;
+	color: var(--color-white);
 `;

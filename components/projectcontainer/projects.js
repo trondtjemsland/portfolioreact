@@ -1,15 +1,14 @@
 import styled from 'styled-components';
 import Data from '../data/data.json';
+import media from 'styled-media-query';
 
-const ProjectHeading = styled.div`
-|	
-`;
+const ProjectHeading = styled.div``;
 
 const ProjectsContainer = styled.div`
-	width: 1027px;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
-	margin-top: 300px;
+	margin-top: 155px;
 
 	h2 {
 		font-size: 36px;
@@ -26,6 +25,13 @@ const ProjectsContainer = styled.div`
 		margin-top: 40px;
 		display: flex;
 		padding: 50px;
+
+		${media.lessThan('large')`
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			
+		`}
 	}
 
 	.iconImg {
@@ -36,7 +42,7 @@ const ProjectsContainer = styled.div`
 const Projects = () => {
 	return (
 		<>
-			<ProjectsContainer>
+			<ProjectsContainer id="projects">
 				<ProjectHeading>
 					<p className="headingText">
 						02 <span>PRJOECTS</span>
