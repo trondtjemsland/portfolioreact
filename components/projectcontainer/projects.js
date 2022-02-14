@@ -19,12 +19,21 @@ const ProjectsContainer = styled.div`
 		font-size: 20px;
 	}
 
+	${media.lessThan('huge')`
+		font-size:30px;
+			
+		`}
+
 	.Card {
 		background-color: var(--color-secondary);
 		border-radius: 5px;
-		margin-top: 40px;
+		margin-top: 36px;
 		display: flex;
 		padding: 50px;
+
+		.projectImage {
+			height: 100%;
+		}
 
 		${media.lessThan('large')`
 			display:flex;

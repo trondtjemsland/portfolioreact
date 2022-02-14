@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 		right: 40px;
 		bottom: 0px;
 		width: 474px;
-		height: 400px;
+		height: 360px;
 	}
 `;
 

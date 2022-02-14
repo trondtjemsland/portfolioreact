@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import media from 'styled-media-query';
 
 const Aside = styled.aside`
-	flex: 0 0 260px;
+	flex: 0 0 15%;
 
-	${media.lessThan('large')`
-		flex: 0 0 120px
+	${media.greaterThan('large')`
+		flex: 0 0 20%;
 	`}
 `;
 
