@@ -9,12 +9,12 @@ function Header() {
 			title: '01 About',
 		},
 		{
-			link: '#contact',
-			title: '02 Contact',
+			link: '#projects',
+			title: '02 Projects',
 		},
 		{
-			link: '#projects',
-			title: '03 Projects',
+			link: '#contact',
+			title: '03 Contact',
 		},
 	];
 
