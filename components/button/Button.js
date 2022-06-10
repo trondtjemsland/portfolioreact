@@ -17,7 +17,7 @@ function CustomBtn({ children, variant, icon }) {
 	return (
 		<Wrapper>
 			<Icon>{icon}</Icon>
-			<a>{children}</a>
+			<p>{children}</p>
 		</Wrapper>
 	);
 }

@@ -19,7 +19,8 @@ export const Wrapper = styled.div`
 	justify-content: center;
 	gap: 10px;
 
-	a {
+	a,
+	p {
 		text-decoration: none;
 		color: var(--color-white);
 		font-size: 22px;

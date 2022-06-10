@@ -20,6 +20,11 @@ const ProjectsContainer = styled.div`
 		font-size: 20px;
 	}
 
+	.linktext {
+		margin-top: 10px;
+		text-decoration: underline;
+	}
+
 	${media.lessThan('huge')`
 		font-size:30px;
 			
@@ -63,6 +68,7 @@ const Projects = () => {
 						id,
 						title,
 						description,
+						link,
 						image,
 						htmlIcon,
 						cssIcon,
@@ -80,6 +86,9 @@ const Projects = () => {
 									<h2>{title}</h2>
 								</div>
 								<p className="descText">{description}</p>
+								<a href={link}>
+									<p className="linktext">{link}</p>
+								</a>
 								<img className="iconImg" src={htmlIcon} alt="Icons" />
 								<img className="iconImg" src={cssIcon} alt="Icons" />
 								<img className="iconImg" src={figmaIcon} alt="Icons" />

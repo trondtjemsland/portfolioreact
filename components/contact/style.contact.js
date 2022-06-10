@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
 	width: 70%;
 	margin: 80px auto;
 	${media.lessThan('large')`
-	margin:100px 0 100px 0;
+	margin: 80px auto;
 
 		`}
 `;

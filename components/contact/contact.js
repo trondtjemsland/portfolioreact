@@ -12,7 +12,9 @@ function Contact() {
 			<Text>
 				<span>TO</span> CONTACT <span>ME</span>
 			</Text>
-			<CustomBtn icon={<FaEnvelope />}>EMAIL </CustomBtn>
+			<a href="mailto:someone@example.com">
+				<CustomBtn icon={<FaEnvelope />}>EMAIL</CustomBtn>
+			</a>
 		</Wrapper>
 	);
 }
