@@ -5,7 +5,7 @@ import media from 'styled-media-query';
 const ProjectHeading = styled.div``;
 
 const ProjectsContainer = styled.div`
-	width: 70%;
+	width: 80%;
 	margin: auto;
 	display: flex;
 	flex-direction: column;

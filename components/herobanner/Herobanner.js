@@ -14,6 +14,8 @@ const Wrapper = styled.div`
 		padding: 10px;
 	}
 	${media.lessThan('large')`
+		padding-top:70px;
+		width:85%;
 		.imageContainer {
 			width:90%;
 		}
@@ -23,6 +25,9 @@ const Wrapper = styled.div`
 const BtnContainer = styled.div`
 	display: flex;
 	margin-top: 80px;
+	${media.lessThan('large')`
+	margin-top:30px;
+		`}
 `;
 
 const HeroBanner = () => {

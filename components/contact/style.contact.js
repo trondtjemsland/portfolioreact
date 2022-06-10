@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
-	width: 70%;
+	width: 80%;
 	margin: 80px auto;
 	${media.lessThan('large')`
 	margin: 80px auto;

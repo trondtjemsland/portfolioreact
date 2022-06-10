@@ -14,8 +14,9 @@ export const Wrapper = styled.div`
 		flex-direction:row;
 		flex-wrap:wrap;
 		align-content:stretch;
-		justify-content:flex-start;
-		align-items:center	
+		justify-content:space-between;
+		align-items:center;	
+		display:flex;
 	`}
 `;
 
