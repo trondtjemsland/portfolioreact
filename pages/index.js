@@ -19,16 +19,14 @@ export default function Home() {
 			</Head>
 
 			<Body>
-				<div className="flexWrapper">
-					<Aside></Aside>
-					<Main>
-						<Header></Header>
-						<HeroBanner></HeroBanner>
-						<AboutSection></AboutSection>
-						<ProjectsContainer></ProjectsContainer>
-						<Contact></Contact>
-					</Main>
-				</div>
+				<Main>
+					<Header></Header>
+					<HeroBanner></HeroBanner>
+					<AboutSection></AboutSection>
+					<ProjectsContainer></ProjectsContainer>
+					<Contact></Contact>
+				</Main>
+
 				<Footer></Footer>
 			</Body>
 		</>

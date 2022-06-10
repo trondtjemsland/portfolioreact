@@ -3,7 +3,9 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
 	color: var(--color-white);
-	width: 80%;
+	width: 70%;
+	margin: auto;
+
 	padding-top: 182px;
 
 	.aboutText {

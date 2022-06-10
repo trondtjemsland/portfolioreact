@@ -5,7 +5,8 @@ import media from 'styled-media-query';
 const ProjectHeading = styled.div``;
 
 const ProjectsContainer = styled.div`
-	width: 80%;
+	width: 70%;
+	margin: auto;
 	display: flex;
 	flex-direction: column;
 	margin-top: 155px;
@@ -54,7 +55,7 @@ const Projects = () => {
 			<ProjectsContainer id="projects">
 				<ProjectHeading>
 					<p className="headingText">
-						02 <span>PRJOECTS</span>
+						02 <span>PROJECTS</span>
 					</p>
 				</ProjectHeading>
 				{Data.map(

@@ -23,5 +23,17 @@
         "githubIcon":"/images/Github.png",
         "vscodeIcon":"/images/VSCode.png",
         "jsIcon":"/images/JavaScript.png"
+    },
+    {
+        "id":"3",
+        "title":"Holidaze",
+        "description":"Final year exam, where we had to make a webpage for a hotel booking company. This was a difficult task and we basically learned React with next.js as we did it.",
+        "image":"https://condescending-montalcini-17b160.netlify.app/Images/holidazemock.png",
+        "htmlIcon":"/images/HTML.png",
+        "cssIcon":"/images/CSS.png",
+        "figmaIcon":"/images/FIGMA.png",
+        "githubIcon":"/images/Github.png",
+        "vscodeIcon":"/images/VSCode.png",
+        "jsIcon":"/images/JavaScript.png"
     }
 ]

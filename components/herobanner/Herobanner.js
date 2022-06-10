@@ -5,7 +5,9 @@ import { FaGithub, FaFile } from 'react-icons/fa';
 import media from 'styled-media-query';
 
 const Wrapper = styled.div`
-	padding-top: 129px;
+	padding-top: 130px;
+	width: 70%;
+	margin: auto;
 	.imageContainer {
 		width: 100%;
 		height: 200px;

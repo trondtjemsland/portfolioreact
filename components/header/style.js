@@ -3,12 +3,12 @@ import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
 	width: 90%;
+	margin: auto;
 	flex: 0 0 200px;
 	height: 60px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 67px 52px 0 0;
 
 	${media.lessThan('large')`
 		flex-direction:row;

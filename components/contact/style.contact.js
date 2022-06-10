@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
-	margin: 150px 0 150px 0;
-	width: 80%;
+	width: 70%;
+	margin: 80px auto;
 	${media.lessThan('large')`
 	margin:100px 0 100px 0;
 
